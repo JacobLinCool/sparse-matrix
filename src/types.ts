@@ -4,4 +4,10 @@ export interface Term {
     value: number;
 }
 
-export type SparseMatrix = Term[];
+/**
+ * Sparse Matrix. (Should be sorted)
+ */
+export interface SparseMatrix extends Array<Term> {
+    0: Term;
+    length: number;
+}

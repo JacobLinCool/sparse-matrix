@@ -6,6 +6,6 @@ trailingComma: all
 semi: true
 singleQuote: false
 overrides:
-  - files: "*.{md,yml,yaml}"
+  - files: "*.{yml,yaml}"
     options:
       tabWidth: 2

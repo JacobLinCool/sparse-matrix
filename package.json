@@ -34,5 +34,13 @@
         "tsup": "^6.2.3",
         "typedoc": "^0.23.15",
         "typescript": "^4.8.4"
+    },
+    "homepage": "https://jacoblincool.github.io/sparse-matrix/",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/JacobLinCool/sparse-matrix.git"
+    },
+    "bugs": {
+        "url": "https://github.com/JacobLinCool/sparse-matrix/issues"
     }
 }

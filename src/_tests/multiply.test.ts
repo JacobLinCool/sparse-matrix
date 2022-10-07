@@ -41,7 +41,7 @@ const c: SparseMatrix = [
 ];
 
 describe("multiply", () => {
-    it.skip("should multiply two matrices", () => {
+    it("should multiply two matrices", () => {
         expect(multiply(a, b)).toEqual([
             { row: 7, col: 5, value: 12 },
             { row: 0, col: 1, value: 2 },
